@@ -33,8 +33,8 @@ const Sobre = () => {
           Sou Lucas, estudante de Engenharia de Software e apaixonado por tecnologia. Atuo como desenvolvedor full stack, criando soluções que vão desde interfaces modernas e responsivas até sistemas robustos no back-end. Tenho experiência com React, Next.js, Node.js, Python, Django, SQLite, PostgreSQL e Supabase, além de integrações com automações e APIs.
           </p>
         </div>
-        <div className=' md:w-1/2 flex justify-center md:justify-end mt-[-15px]'>
-        <img src={ProfileImage} alt='Lucas Barros' className='w-full h-full rounded-full object-cover object-top drop-shadow-[0_10px_20px_rgba(37,99,235,0.5)]'/>
+        <div className=' md:w-1/2 flex justify-center md:justify-end '>
+        <img src={ProfileImage} alt='Lucas Barros' className='w-full h-full mt-[-20px] rounded-full object-cover object-top drop-shadow-[0_10px_20px_rgba(37,99,235,0.5)] hover:scale-102 transform transition duration-300'/>
 
         </div>
       </div>
