@@ -39,7 +39,7 @@ const Navbar = () => {
         <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] lg:px-[20vw] ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
             }`}>
             <div className='text-white py-5 flex justify-between items-center'>
-                <div className='text-lg font-semibold cursor-pointer hover:scale-110 transform transition duration-300'>
+                <div className='text-lg font-semibold cursor-pointer #111138'>
                     <span className='text-[#2563EB]'>&lt;</span>
                     <span className='text-white'>Lucas</span>
                     <span className='text-[#2563EB]'>/</span>
