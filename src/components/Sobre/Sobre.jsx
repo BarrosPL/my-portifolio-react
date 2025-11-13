@@ -33,8 +33,8 @@ const Sobre = () => {
           Sou Lucas, estudante de Engenharia de Software e apaixonado por tecnologia. Desenvolvedor Web Front-End apaixonado por criar interfaces modernas, responsivas e intuitivas. Tenho experiência com HTML, CSS, JavaScript, TypeScript e frameworks como React e Next.JS. focando em transformar ideias em experiências digitais atraentes e funcionais.
           </p>
         </div>
-        <div className=' md:w-1/2 flex justify-center md:justify-end '>
-        <img src={ProfileImage} alt='Lucas Barros' className=' pl-5w-full h-full mt-[-20px] rounded-full object-cover object-top drop-shadow-[0_10px_20px_rgba(37,99,235,0.5)] hover:scale-102 transform transition duration-300'/>
+        <div className=' md:w-1/2 flex justify-center md:justify-end ml-3'>
+        <img src={ProfileImage} alt='Lucas Barros' className='  pl-5w-full h-full mt-[-20px] rounded-full object-cover object-top drop-shadow-[0_10px_20px_rgba(37,99,235,0.5)] hover:scale-102 transform transition duration-300'/>
 
         </div>
       </div>
