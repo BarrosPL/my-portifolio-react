@@ -18,18 +18,24 @@ const Navbar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     })
 
-
     const handleMenuItemClick = (sessaoId) => {
-        setSessaoAtiva(sessaoId);
-        setIsOpen(false);
-    }
+     const section = document.getElementById(sessaoId);
+
+     if (section) {
+         section.scrollIntoView({ behavior: "smooth" });
+     }
+
+     setSessaoAtiva(sessaoId);
+     setIsOpen(false);
+};
+    
 
     const menuItems = [
         { id: "sobre", label: "Sobre" },
         { id: "skills", label: "Skills" },
         { id: "experiencia", label: "Experiencia" },
         { id: "projetos", label: "Projetos" },
-       
+    
     
 
     ]

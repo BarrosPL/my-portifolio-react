@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experiencia = () => {
   return (
-     <section id="about" className="py-20 relative pt-10">
+     <section id="experiencia" className="py-20 relative pt-10 scroll-mt-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 hover:scale-110 transform transition duration-300">

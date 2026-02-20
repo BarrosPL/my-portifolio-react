@@ -30,7 +30,7 @@ const projects = [
 
 const Projetos = () => {
   return (
-    <section id="projects" className="py-20 relative pt-10">
+    <section id="projetos" className="py-20 relative pt-10 scroll-mt-24">
       <div className="container mx-auto px-4">
 
         <div className="text-center mb-16">

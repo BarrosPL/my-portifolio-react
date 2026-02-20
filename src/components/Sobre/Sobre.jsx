@@ -4,7 +4,7 @@ import ProfileImage from '../../assets/profile_image.png'
 
 const Sobre = () => {
   return (
-    <section id='about' className=' px-6 py-4[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32'>
+    <section id='sobre' className=' px-6 py-4[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32 scroll-mt-60'>
       <div className='flex flex-col-reverse md:flex-row justify-between items-center'>
         <div className='md:w-1/2 text-center md:text-left mt-8 md:mt-0'>
           <h1 className='text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight'>

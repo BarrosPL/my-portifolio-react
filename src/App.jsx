@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Contatos from './components/Contatos/Contatos'
-import Educacao from './components/Educacao/Educacao'
 import Experiencia from './components/Experiencia/Experiencia'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
@@ -31,7 +30,6 @@ function App() {
           <Skills />
           <Projetos />
           <Experiencia />
-          <Educacao />
           <Contatos />
           <Footer />
           <WhatsappButton number="+5583999849151" />
