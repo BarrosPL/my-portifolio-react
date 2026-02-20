@@ -63,7 +63,7 @@ const Navbar = () => {
                 </ul>
                 <div className='hidden md:flex space-x-4'>
                     <a href="https://github.com/BarrosPL" target='_blank' rel='noopener noreferrer' className='text-white hover: text-[#2563EB] hover:scale-120 transform transition duration-300'><FaGithub size={24} /></a>
-                    <a href="https://github.com/BarrosPL" target='_blank' rel='noopener noreferrer' className='text-white hover: text-[#2563EB] hover:scale-120 transform transition duration-300'><FaLinkedin size={24} /></a>
+                    <a href="https://www.linkedin.com/in/pedro-lucas-barros-silva-30b6172a2/" target='_blank' rel='noopener noreferrer' className='text-white hover: text-[#2563EB] hover:scale-120 transform transition duration-300'><FaLinkedin size={24} /></a>
                 </div>
                 <div className='md:hidden'>
                     {
