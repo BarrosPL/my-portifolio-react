@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import ProfileImage from '../../assets/profile_image.jpg'
+import ProfileImage from '../../assets/profile_image.png'
 
 const Sobre = () => {
   return (
@@ -17,7 +17,7 @@ const Sobre = () => {
             <span className='text-white'>Sou </span>
             <TypeAnimation
               sequence={[
-                'Desenvolvedor Web Front-End',
+                'Desenvolvedor Web Full-Stack',
                 2000,                       
                 'Engenheiro de Software',   
                 2000,                       
@@ -30,11 +30,11 @@ const Sobre = () => {
             />
           </h3>
           <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>
-          Sou Lucas, estudante de Engenharia de Software e apaixonado por tecnologia. Desenvolvedor Web Front-End apaixonado por criar interfaces modernas, responsivas e intuitivas. Tenho experiência com HTML, CSS, JavaScript, TypeScript e frameworks como React e Next.JS. focando em transformar ideias em experiências digitais atraentes e funcionais.
+          Sou Lucas, estudante de Engenharia de Software e desenvolvedor Full Stack, apaixonado por tecnologia e pela construção de soluções digitais completas. Tenho experiência no desenvolvimento front-end e back-end, criando interfaces modernas, responsivas e intuitivas, aliadas a sistemas robustos e escaláveis. Atuo com HTML, CSS, JavaScript e TypeScript, utilizando frameworks como React e Next.js, sempre com foco em transformar ideias em aplicações funcionais, performáticas e bem estruturadas, do banco de dados à experiência final do usuário.
           </p>
         </div>
         <div className=' md:w-1/2 flex justify-center md:justify-end ml-3'>
-        <img src={ProfileImage} alt='Lucas Barros' className='  pl-5w-full h-full mt-[-20px] rounded-full object-cover object-top drop-shadow-[0_10px_20px_rgba(37,99,235,0.5)] hover:scale-102 transform transition duration-300'/>
+        <img src={ProfileImage} alt='Lucas Barros' className='  w-130 h-130 rounded-full object-cover object-top drop-shadow-[0_10px_20px_rgba(37,99,235,0.5)] hover:scale-102 transform transition duration-300'/>
 
         </div>
       </div>

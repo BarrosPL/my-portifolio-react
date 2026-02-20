@@ -13,22 +13,40 @@ const Experiencia = () => {
         <div className="max-w-4xl mx-auto">
           <div className="glass p-8 md:p-12 rounded-2xl mb-8 border border-white bg-[#0B0A26] hover:scale-102 transform transition duration-300">
             <h3 className="text-2xl font-semibold mb-6 text-white">Experiência Profissional</h3>
-            
+            {/* Experiência Anderson Rios Consultoria */}
+            <div className='mb-8 pb-8 pt-2 border-b border-white'>
+              <h4 className='text-xl font-semibold text-secondary mb-2 text-white'>Anderson Rios Consultoria</h4>
+              <div className='ml-4 pt-2'>
+                <h5 className='text-xl font-semibold text-primary mb-2 text-[#2563EB]'>Desenvolvedor Full-Stack (Estagio)</h5>
+                <p className='text-sm text-muted-foreground mb-4 text-gray-400'>Nov 2025 – Fev 2026</p>
+                <ul className='space-y-2 text-muted-foreground'>
+                  <li className='flex gap-2'>
+                    <span className="text-primary text-[#2563EB]">•</span>
+                    <span className='text-gray-400'>Atuei como desenvolvedor full stack na Anderson Rios Consultoria, com foco no desenvolvimento de funcionalidades para o dashboard do sistema de agentes de inteligência artificial, utilizando Next.js, NestJS, Prisma ORM e TypeScript. Fui responsável pela criação e evolução de interfaces, implementação de novas funcionalidades, integração com APIs, além da correção de bugs e melhorias contínuas na estabilidade, usabilidade e performance da aplicação.</span>
+
+                  </li>
+                </ul>
+
+              </div>
+            </div>
             {/* Experiência I4T.AI */}
-            <div className="mb-8 pb-8 border-b border-white">
-              <h4 className="text-xl font-semibold text-primary mb-2 text-[#2563EB]">Engenheiro de Software focado em Automações</h4>
-              <p className="text-muted-foreground mb-1 text-gray-400">Projeto para I4T.AI</p>
-              <p className="text-sm text-muted-foreground mb-4 text-gray-400">Jul 2025 – Jul 2025</p>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex gap-2">
-                  <span className="text-primary text-[#2563EB]">•</span>
-                  <span className='text-gray-400'>Desenvolvimento de um agente inteligente integrando OneDrive, n8n e OpenAI, com foco em automação de processos e respostas inteligentes</span>
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-primary  text-[#2563EB]">•</span>
-                  <span className='text-gray-400'>Criação de fluxos personalizados para múltiplos clientes, integrando tecnologias para potencializar a experiência do usuário</span>
-                </li>
-              </ul>
+            <div className="mb-8 pb-8 pt-2 border-b border-white">
+              <h4 className="text-xl font-semibold text-secondary mb-2 text-white">I4T Inteligence</h4>
+              <div className='ml-4'>
+                <h5 className="text-xl font-semibold text-primary mb-2 text-[#2563EB]">Engenheiro de Software focado em Automações</h5>
+                <p className="text-sm text-muted-foreground mb-4 text-gray-400">Jul 2025 – Jul 2025</p>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li className="flex gap-2">
+                   <span className="text-primary text-[#2563EB]">•</span>
+                   <span className='text-gray-400'>Desenvolvimento de um agente inteligente integrando OneDrive, n8n e OpenAI, com foco em automação de processos e respostas inteligentes</span>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="text-primary  text-[#2563EB]">•</span>
+                    <span className='text-gray-400'>Criação de fluxos personalizados para múltiplos clientes, integrando tecnologias para potencializar a experiência do usuário</span>
+                  </li>
+                </ul>
+              </div>
+              
             </div>
 
             {/* Experiência Antropus */}
